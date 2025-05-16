@@ -8,6 +8,7 @@ import Index from "./pages/Index";
 import CreateEvent from "./pages/CreateEvent";
 import EditEvent from "./pages/EditEvent";
 import CollaboratedEvents from "./pages/CollaboratedEvents";
+import AdminPanel from "./pages/AdminPanel";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -23,6 +24,7 @@ const App = () => (
           <Route path="/criar-evento" element={<CreateEvent />} />
           <Route path="/editar-evento/:eventId" element={<EditEvent />} />
           <Route path="/colaboracoes" element={<CollaboratedEvents />} />
+          <Route path="/admin" element={<AdminPanel />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>

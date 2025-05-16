@@ -18,6 +18,7 @@ export function Navbar() {
     { name: 'Meus Eventos', path: '/' },
     { name: 'Criar Evento', path: '/criar-evento' },
     { name: 'Colaborações', path: '/colaboracoes' },
+    { name: 'Painel Admin', path: '/admin' },
   ];
 
   return (
